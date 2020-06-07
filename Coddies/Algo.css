@@ -1,0 +1,265 @@
+body{
+background-color: #F0F8FF;
+background-size:cover;
+background-position:center;
+background-repeat: no-repeat;
+
+font-family: 'Noto Serif', serif;
+color:black;
+}
+
+.about{
+  margin-top: 10%;
+  padding: 10px;
+  font-weight: bold;
+  color: #1baade;
+}
+
+.full{
+  text-align: center;
+  font-weight: normal;
+  padding:20px;
+
+}
+
+.container{
+  border: 1px solid #F0F8FF;
+  margin: 4% auto;
+  text-align: left;
+  padding: 2px 5px 5px 5px;
+}
+
+
+html{
+height:100%;
+}
+
+#content{
+text-align:left;
+padding-top:5px;
+margin-left: 30px;
+color:white;
+width: 60%;
+/*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                    0px 8px 13px rgba(0,0,0,0.1),
+                    0px 18px 23px rgba(0,0,0,0.1)*/
+}
+
+.side{
+  float: right;
+  padding-top:5px;
+margin-right: 1px;
+width:25%;
+}
+
+.column{
+  display:inline-block;
+  /*box-shadow: 2px 0px 1px #888;*/
+  /*border-top:1px solid #f8f8f8;
+  
+  border-right: 2px solid rgba(0,0,0,0.2);*/
+  margin-top: 3%;
+  text-align: left;
+  float: left;
+  width: 30%;
+  padding: 60px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+.sep{
+  display:inline-block;
+  box-shadow: 1px 0px 1px #888;
+  border-top:2px solid #f8f8f8;
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+
+.c2{
+  text-align: center;
+  float: right;
+  width:30%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  height: 30%;
+}
+h1{
+font-weight:700;
+font-size: 5em;
+
+}
+h2{
+  margin-top: 4%;
+}
+
+h6{
+  font-size: 25px;
+  font-weight: bold;
+  color:#1baade;
+  text-align: center;
+}
+
+h5{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left:2px;
+  color:black;
+  font-weight:bold;
+}
+.sidebar{
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+}
+.sidebar2{
+  font-size: 15px;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+}
+.line{
+
+  text-decoration: underline;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color:black;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.main{
+  margin:6% auto;
+  text-align: center;
+  padding: 1px 5px 5px 5px;
+}
+
+.heading1,.change{
+  margin:1% auto;
+  padding: 5px 5px 5px 5px;
+}
+.change{
+  font-size: 60px;
+}
+
+.headings,.aprilhead{
+  font-weight: bold;
+  color:#1baade;
+}
+
+.april{
+  margin-top:60px;
+  color:black;
+}
+
+.aprilhead{
+  margin-top:40px;
+  font-size: 30px;
+}
+.head{
+  font-size:20px;
+}
+
+.lists{
+  text-align: center;
+   font-weight: bold;
+   margin-top:50px;
+   padding: 10px 10px 10px 10px;
+  color:#1baade;
+  font-size: 25px;
+}
+
+
+.head
+{
+   font-weight: bold;
+  color:#1baade;
+}
+hr{
+width: 1080px;
+border-top:2px solid #87CEEB;
+border-bottom: 5px solid #87CEDA;
+}
+
+.divide{
+width: 1080px;
+border-top:1px solid #f8f8f8;
+border-bottom: 1px solid rgba(0,0,0,0.2);
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                    0px 8px 13px rgba(0,0,0,0.1),
+                    0px 18px 23px rgba(0,0,0,0.1)*/
+}
+
+.dsa{
+  /*border: 5px solid black;*/
+}
+
+.marq{
+	font-size:30px;
+	font-style: bold;
+}
+
+
+.fa {
+  padding: 5px;
+  font-size: 70px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+}
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+  --animate-duration: 10s;
+}
+
+/* This changes all the animations globaly */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
